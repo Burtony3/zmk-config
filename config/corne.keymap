@@ -22,8 +22,8 @@
 
             bindings = <
 &kp ESCAPE  &kp Q  &kp W  &kp E             &kp R             &kp T          &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D             &kp F             &kp G          &kp H        &kp J  &kp K      &kp L    &kp SQT   &kp ENTER
-&kp LSHFT   &kp Z  &kp X  &kp C             &kp V             &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none
+&kp TAB     &kp A  &kp S  &kp D             &kp F             &kp G          &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT   &kp Z  &kp X  &kp C             &kp V             &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
                           &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 2 SPACE    &lt 1 SPACE  &mo 3  &kp RALT
             >;
         };
@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC    &trans  &kp HOME      &kp UP            &kp END           &kp PAGE_UP      &kp MINUS  &kp N7        &kp N8         &kp N9        &trans  &kp BSPC
-&kp TAB    &trans  &kp LEFT      &kp DOWN          &kp RIGHT         &kp PAGE_DOWN    &kp PLUS   &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &trans  &trans
-&kp LSHFT  &trans  &kp LC(LEFT)  &kp LC(UP_ARROW)  &kp LC(RIGHT)     &trans           &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &trans  &trans
-                                 &kp LEFT_CONTROL  &kp LEFT_COMMAND  &trans           &trans     &kp N0        &kp RIGHT_ALT
+&kp ESC    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans    &kp MINUS  &kp N7        &kp N8        &kp N9        &kp UNDER  &kp BSPC
+&kp TAB    &kp LEFT_BRACE    &kp COMMA             &kp COLON              &kp RIGHT_BRACE    &trans    &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans
+&kp LSHFT  &trans            &trans                &trans                 &trans             &trans    &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
+                                                   &kp LEFT_CONTROL       &kp LEFT_COMMAND   &trans    &kp SPACE  &kp N0        &kp PERIOD
             >;
         };
 
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &trans  &trans  &trans            &trans            &trans    &kp MINUS  &kp AMPS              &kp ASTRK              &none      &none          &kp BSPC
-&kp TAB    &trans  &trans  &trans            &trans            &trans    &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS   &kp SEMICOLON  &trans
-&kp LSHFT  &trans  &trans  &kp CAPSLOCK      &trans            &trans    &kp EQUAL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH  &kp BACKSLASH  &trans
-                           &kp LEFT_CONTROL  &kp LEFT_COMMAND  &trans    &trans     &trans                &kp RIGHT_ALT
+&kp GRAVE  &none  &kp HOME      &kp UP            &kp END           &kp PG_UP        &none          &kp PERCENT  &kp CARET      &none       &none          &kp BSPC
+&kp TAB    &none  &kp LEFT      &kp DOWN          &kp RIGHT         &kp PAGE_DOWN    &kp AMPERSAND  &kp UNDER    &kp POUND      &kp DOLLAR  &kp PIPE       &trans
+&kp LSHFT  &none  &kp LC(LEFT)  &kp LC(DOWN)      &kp LC(RIGHT)     &none            &kp TILDE      &kp EXCL     &kp AT         &kp SLASH   &kp BACKSLASH  &trans
+                                &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp SPACE        &trans         &trans       &kp RIGHT_ALT
             >;
         };
 
