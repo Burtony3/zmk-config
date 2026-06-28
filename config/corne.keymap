@@ -53,7 +53,7 @@
             bindings = <
 &kp GRAVE  &none  &kp HOME      &kp UP            &kp END           &kp PG_UP        &none          &kp PERCENT  &kp CARET      &none       &none          &kp BSPC
 &kp TAB    &none  &kp LEFT      &kp DOWN          &kp RIGHT         &kp PAGE_DOWN    &kp AMPERSAND  &kp UNDER    &kp POUND      &kp DOLLAR  &kp PIPE       &trans
-&kp LSHFT  &none  &kp LC(LEFT)  &kp LC(DOWN)      &kp LC(RIGHT)     &none            &kp TILDE      &kp EXCL     &kp AT         &kp SLASH   &kp BACKSLASH  &trans
+&kp LSHFT  &none  &kp LC(LEFT)  &kp LC(UP_ARROW)  &kp LC(RIGHT)     &none            &kp TILDE      &kp EXCL     &kp AT         &kp SLASH   &kp BACKSLASH  &trans
                                 &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp SPACE        &trans         &trans       &kp RIGHT_ALT
             >;
         };
